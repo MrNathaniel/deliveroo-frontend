@@ -1,0 +1,13 @@
+header {
+  height: 59px;
+  width: 1920px;
+  border: lightgray solid 1px;
+}
+
+.header img {
+  padding-left: 360px;
+  padding-top: 9px;
+  padding-right: 1522px;
+  padding-bottom: 9px;
+  height: 40px;
+}
