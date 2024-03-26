@@ -11,3 +11,54 @@ header {
   padding-bottom: 9px;
   height: 40px;
 }
+
+section {
+  display: flex;
+  flex-direction: row;
+  height: 257px;
+  width: 1920px;
+  /*border: blue solid 2px;*/
+}
+
+.Le-pain-quotidien {
+  height: 257px;
+  width: 1920px;
+  font-size: 19px;
+}
+
+.Left-bloc {
+  height: 257px;
+  width: 830px;
+  padding-top: 48px;
+  padding-left: 361px;
+  padding-right: 56px;
+
+  /*border: black solid 2px;*/
+}
+
+.Left-bloc h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 44px;
+}
+
+.Left-bloc p {
+  width: 750px;
+  font-size: 19px;
+  color: gray;
+}
+
+.picture img {
+  height: 200px;
+  width: 400px;
+  padding-top: 30px;
+  padding-right: 257px;
+  object-fit: cover;
+
+  /*border: green solid 2px;*/
+}
+
+/*span {
+  font-size: 32px;
+  font-weight: bold;
+}*/

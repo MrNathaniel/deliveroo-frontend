@@ -25,10 +25,35 @@ function App() {
 
   return (
     <>
-      <header className="header">
-        <img src={logoText} alt="Logo-text" />
-      </header>
-      <p>{isLoading === true ? "chargement..." : data.Ratings[0].source}</p>;
+      <body>
+        <div>
+          {isLoading === true ? (
+            <p>"chargement..."</p>
+          ) : (
+            <>
+              <header className="header">
+                <img src={logoText} alt="Logo-text" />
+              </header>
+              <section className="Le-pain-quotidien">
+                <div className="Left-bloc">
+                  <h1>{data.restaurant.name}</h1>
+                  <p>{data.restaurant.description}</p>
+                </div>
+                <div className="picture">
+                  <img src={data.restaurant.picture} />
+                </div>
+              </section>
+              <main>
+                <div>
+                  {data.categories.map((category) => {})}
+                  return ({category.name})
+                </div>
+              </main>
+            </>
+          )}
+        </div>
+        ;
+      </body>
     </>
   );
 }
